@@ -1,0 +1,32 @@
+{
+  "name": "twitter-streaming-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index",
+    "dev": "node server/index",
+    "frontend": "lite-server client/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke-h1/twitter-streaming-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luke-h1/twitter-streaming-api/issues"
+  },
+  "homepage": "https://github.com/luke-h1/twitter-streaming-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "needle": "^2.5.2",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
