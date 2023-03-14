@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/luke-h1/twitter-streaming-api#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "needle": "^2.5.2",
     "socket.io": "^3.0.4"
